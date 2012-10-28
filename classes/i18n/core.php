@@ -171,7 +171,7 @@ class I18n_Core
 		{
 			return new I18n_Plural_French;
 		}
-		elseif (in_array($prefix, array('ru', 'sr', 'uk', 'sh', 'be', 'hr', 'bs')))
+		elseif (in_array($prefix, array('ru', 'sr', 'uk', 'ua', 'sh', 'be', 'hr', 'bs')))
 		{
 			return new I18n_Plural_Balkan;
 		}
