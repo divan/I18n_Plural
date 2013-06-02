@@ -167,7 +167,7 @@ class Core
 		{
 			return new Plural\French;
 		}
-		elseif (in_array($prefix, array('ru', 'sr', 'uk', 'sh', 'be', 'hr', 'bs')))
+		elseif (in_array($prefix, array('ru', 'sr', 'ua', 'sh', 'be', 'hr', 'bs')))
 		{
 			return new Plural\Balkan;
 		}
